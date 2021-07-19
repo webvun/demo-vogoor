@@ -1,0 +1,26 @@
+{
+  "name": "demo-vogoor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "vogoor": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "html"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm-watch",
+    "vogoor": "node node_modules/vogoor/build/start.js \"src/styles.css\" \"src\" ",
+    "build": "npm run watch vogoor"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-watch": "^0.10.0",
+    "vogoor": "^0.1.3"
+  }
+}

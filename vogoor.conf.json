@@ -1,0 +1,21 @@
+{
+    "cssFilePath": "src/styles.css",
+    "htmlDirPath": "src",
+    "prefix": false,
+    "propertySeparator": ":",
+    "valueSeparator": "_",
+    "shortClassNames": [
+        {
+            "name": "color",
+            "short": "c"
+        },
+        {
+            "name": "padding-top",
+            "short": "pt"
+        },
+        {
+            "name": "padding",
+            "short": "p"
+        }
+    ]
+}
