@@ -2,6 +2,26 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-418582949"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-418582949');
+
+            function gtag_report_conversion(url) {
+                var callback = function () {
+                    if (typeof(url) != 'undefined') {
+                    window.location = url;
+                    }
+                };
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-418582949/9HtJCOWiwdkCEKWjzMcB',
+                    'event_callback': callback
+                });
+                return false;
+            }
+        </script>
     </head>
     <body style = "background-color: #282C34;">
         <div>
@@ -12,7 +32,7 @@
                     <div class = "padding:0px_20px border:1px_solid_white border-radius:5px margin-bottom:30px max-width:700px margin:40px_auto;" >
                         <pre class = "color:#31AE84 font-size:20px">&lt;h1 class = "font-size:20px color:#31AE84"&gt;A Title&lt;/h1&gt;</pre>
                     </div>
-                    <a class = "color:white text-decoration:none border-radius:5px padding:10px_20px; background-color:#DF4577 display:block width:150px margin:auto" href = "https://www.npmjs.com/package/vogoor">GET STARTED</a>
+                    <a onclick="gtag_report_conversion()" class = "color:white text-decoration:none border-radius:5px padding:10px_20px; background-color:#DF4577 display:block width:150px margin:auto" href = "https://www.npmjs.com/package/vogoor">GET STARTED</a>
                 </div>
             </div>
         </div>
