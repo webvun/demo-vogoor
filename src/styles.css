@@ -1,16 +1,20 @@
-.centered-axis-xy {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-}
+@media only screen and (min-width: 600px) {
+    .content h1 {
+        font-size: 120px;
+    }
 
+    .content h2 {
+        font-size: 30px;
+    }
+}
 .text-align\:center {text-align: center;}
+.padding\:20px {padding: 20px;}
 .color\:\#DF4577 {color: #DF4577;}
-.font-size\:120px {font-size: 120px;}
+.font-size\:80px {font-size: 80px;}
 .padding\:0px {padding: 0px;}
+.font-weight\:normal {font-weight: normal;}
 .color\:white {color: white;}
-.font-size\:30px\; {font-size: 30px;;}
+.font-size\:25px\; {font-size: 25px;;}
 .padding\:0px_20px {padding: 0px 20px;}
 .border\:1px_solid_white {border: 1px solid white;}
 .border-radius\:5px {border-radius: 5px;}
@@ -18,7 +22,8 @@
 .max-width\:700px {max-width: 700px;}
 .margin\:40px_auto\; {margin: 40px auto;;}
 .color\:\#31AE84 {color: #31AE84;}
-.font-size\:20px {font-size: 20px;}
+.font-size\:14px {font-size: 14px;}
+.white-space\:pre-line {white-space: pre-line;}
 .text-decoration\:none {text-decoration: none;}
 .padding\:10px_20px\; {padding: 10px 20px;;}
 .background-color\:\#DF4577 {background-color: #DF4577;}
