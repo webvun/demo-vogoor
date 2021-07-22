@@ -3,12 +3,12 @@ Demo Vogoor
 
 This demo shows how to install and use Vogoor. [Here](<https://www.vogoor.com>) is the live version.
 
-Create a new folder:
+Create a new folder:<br>
 demo-vogoor
 
-Create the following files:
-src/index.html
-src/styles.css
+Create the following files:<br>
+src/index.html<br>
+src/styles.css<br>
 
 Put the following code in **src/index.html**:
 ````js
