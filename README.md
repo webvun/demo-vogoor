@@ -10,7 +10,7 @@ Create the following files:<br>
 src/index.html<br>
 src/styles.css<br>
 
-Put the following code in **src/index.html**:
+Put the following code in src/index.html:
 ````js
 <html lang="en">
     <head>
@@ -52,3 +52,5 @@ In terminal window run the following command:
 ````js
     npm run build
 ````
+
+Open the src/index.html file in your browser. 
